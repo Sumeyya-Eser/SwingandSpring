@@ -133,7 +133,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         int i=0;
         while(i<carPrice.size()){
-            dataset.addValue(carPrice.get(i).getCarPrice(), row, "x");
+            dataset.addValue(carPrice.get(i).getCarPrice(), row, ""+(i+1));
             i++;
         }
         
